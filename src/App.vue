@@ -9,13 +9,13 @@
           placeholder="Buscar pokemon pelo Nome"
           v-model="busca"
         />
-        <button
+        <span
           id="form_btn"
           class="galeria__form--btn button is-success"
           @click="buscar"
         >
           Buscar
-        </button>
+        </span>
       </form>
 
       <ul class="card__container">
